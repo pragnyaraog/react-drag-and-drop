@@ -1,6 +1,5 @@
 import './App.css';
 import ImageContainer from './ImageContainer';
-
 function App() {
   return (
     <div className="App">
@@ -11,5 +10,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

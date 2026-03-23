@@ -8,7 +8,6 @@ const ImageContainer = () => {
         const files = e.target.files;
         files.length > 0 && setUrl(URL.createObjectURL(files[0]));
     };
-
     return (
         <div className="image-container">
             {
